@@ -1,9 +1,9 @@
-### Build
+## Build
 ```
 $ docker build . -t 2-docker-volumes-minimal-image
 ```
 
-### Run
+## Run
 ```
 $ docker run --rm -v $PWD/src:/src -v $PWD/dest:/dest --name 2-docker-volumes-minimal-container 2-docker-volumes-minimal-image
 ```

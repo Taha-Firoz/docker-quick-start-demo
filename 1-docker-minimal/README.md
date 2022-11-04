@@ -1,9 +1,9 @@
-### Build
+## Build
 ```
 $ docker build . -t 1-docker-minimal-image
 ```
 
-### Run
+## Run
 ```
 $ docker run --rm -p <host_port>:<container_port> --env-file .env --name 1-docker-minimal-container 1-docker-minimal-image
 ```
