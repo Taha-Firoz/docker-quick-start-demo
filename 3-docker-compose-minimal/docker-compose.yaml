@@ -1,0 +1,10 @@
+services:
+  simple-node:
+    build: simple-node
+    container_name: simple-node-compose
+    environment:
+      - NODE_ENV=production
+      - PORT=$PORT
+      - HOST=$HOST
+    ports:
+      - $PORT:$PORT
